@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="test" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.2.188;Initial Catalog=test;Persist Security Info=True;User ID=dellmen" SettingsObjectName="ConsoleApp1.Properties.Settings" SettingsPropertyName="testConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EURUSD_1H" Member="EURUSD_1H">
+    <Type Name="EURUSD_1H">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.result" Member="result">
+    <Type Name="result">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bz" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="tx" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="yx" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="st" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="zs" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="zy" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="xdzs" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="zycs" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="zscs" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ykb" Type="System.Double" DbType="Decimal(12,3)" CanBeNull="true" />
+      <Column Name="profit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="avg_profit" Type="System.Double" DbType="Decimal(12,3)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURUSD_1H_NEW" Member="EURUSD_1H_NEW">
+    <Type Name="EURUSD_1H_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.v_forex" Member="v_forex">
+    <Type Name="v_forex">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURUSD_1D" Member="EURUSD_1D">
+    <Type Name="EURUSD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GBPUSD_1D" Member="GBPUSD_1D">
+    <Type Name="GBPUSD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURAUD_1D" Member="EURAUD_1D">
+    <Type Name="EURAUD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AUDUSD_1D" Member="AUDUSD_1D">
+    <Type Name="AUDUSD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NZDUSD_1D" Member="NZDUSD_1D">
+    <Type Name="NZDUSD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USDCHF_1D" Member="USDCHF_1D">
+    <Type Name="USDCHF_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USDCAD_1D" Member="USDCAD_1D">
+    <Type Name="USDCAD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURCAD_1D" Member="EURCAD_1D">
+    <Type Name="EURCAD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURNZD_1D" Member="EURNZD_1D">
+    <Type Name="EURNZD_1D">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURAUD_4H" Member="EURAUD_4H">
+    <Type Name="EURAUD_4H">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURAUD_1H" Member="EURAUD_1H">
+    <Type Name="EURAUD_1H">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURAUD_1D_NEW" Member="EURAUD_1D_NEW">
+    <Type Name="EURAUD_1D_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURCAD_1D_NEW" Member="EURCAD_1D_NEW">
+    <Type Name="EURCAD_1D_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURNZD_1D_NEW" Member="EURNZD_1D_NEW">
+    <Type Name="EURNZD_1D_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GBPUSD_1D_NEW" Member="GBPUSD_1D_NEW">
+    <Type Name="GBPUSD_1D_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USDCHF_1D_NEW" Member="USDCHF_1D_NEW">
+    <Type Name="USDCHF_1D_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EURAUD_1H_NEW" Member="EURAUD_1H_NEW">
+    <Type Name="EURAUD_1H_NEW">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sam_5" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_10" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sam_20" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sd" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.AUDUSD_1H" Member="AUDUSD_1H">
+    <Type Name="AUDUSD_1H">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USDCAD_1H" Member="USDCAD_1H">
+    <Type Name="USDCAD_1H">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="time" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="kp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zg" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="zd" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="sp" Type="System.Double" DbType="Decimal(6,5)" CanBeNull="true" />
+      <Column Name="cjl" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.result_detail" Member="result_detail">
+    <Type Name="result_detail">
+      <Column Name="num" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bz" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="tx" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Fin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Zero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="zc_date" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="zc_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="set_date" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="set_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="enter_date" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="enter_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="outer_date" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="outer_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="bid" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="out_bid" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="Zc_high" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="Zc_low" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="zc_mid" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="Expire" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Out_No" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Profit" Type="System.Double" DbType="Decimal(12,6)" CanBeNull="true" />
+      <Column Name="ac_time" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

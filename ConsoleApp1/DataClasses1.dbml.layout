@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 21.5, 15.375" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="ac29f785-19d0-4626-b7bf-ce4c1a544b29" absoluteBounds="0.75, 0.75, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURUSD_1H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9c3eca3e-10b2-4d1e-b26d-7e38bceb032c" absoluteBounds="0.76499999999999968, 1.21, 1.9700000000000002, 1.7756245930989583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8189b372-ab1f-4308-b602-b5e150ccd79d" absoluteBounds="3.75, 0.75, 2, 3.2907230631510416">
+      <DataClassMoniker Name="/DataClasses1DataContext/result" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a37a709b-e0c4-46ff-b6de-b6c4d54cfb90" absoluteBounds="3.7649999999999997, 1.21, 1.9700000000000002, 2.7307230631510415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e82a559-d6e4-46ee-adfb-663fe6a3fdef" absoluteBounds="0.75, 5.75, 2, 3.0997033691406237">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURUSD_1H_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe3661be-7034-48cd-9ec0-7b4330c8cc9a" absoluteBounds="0.76500000000000057, 6.21, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06e95391-c8ac-4ee4-b09b-ad603990e6bb" absoluteBounds="4.875, 5.625, 2, 3.0997033691406237">
+      <DataClassMoniker Name="/DataClasses1DataContext/v_forex" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40e03795-bfd8-4dfd-98e7-2ff9f4e45d1a" absoluteBounds="4.8900000000000006, 6.085, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="65ea05b5-50cc-441d-a137-e526ab6260d3" absoluteBounds="6.75, 0.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURUSD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7be3648b-16dc-4ab3-93fc-4ea12cf9b68b" absoluteBounds="6.7650000000000006, 1.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74332edd-2719-49ff-afed-fcd7f95e8b47" absoluteBounds="6.75, 4.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/GBPUSD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="377f7a46-1544-46a8-a04b-0377e24668dc" absoluteBounds="6.7650000000000006, 5.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="805b3d68-bd56-4685-996a-d6a7e57a0fa8" absoluteBounds="6.75, 8.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURAUD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93722f76-1e4d-485c-bc2e-13ef9fa30c99" absoluteBounds="6.7650000000000006, 9.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2badbc12-c49b-41c7-bfec-9f3229075a57" absoluteBounds="9.75, 0.75, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/AUDUSD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b2074a0e-68d3-4d4a-a02e-b0ee122ef055" absoluteBounds="9.765, 1.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f2b96e1-b2bf-40fa-9da6-c415615e4ec4" absoluteBounds="0.75, 9.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/NZDUSD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6d4c7c8-da01-41e9-b232-4fff287d5903" absoluteBounds="0.76500000000000057, 10.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ebe02eea-3fc3-4fa2-9c5b-1586d8df2b39" absoluteBounds="9.75, 4.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/USDCHF_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="60f6f85e-34be-4339-8d87-3ce7127ae85a" absoluteBounds="9.765, 5.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3503ed18-093e-46c8-8374-62d5992490db" absoluteBounds="9.75, 8.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/USDCAD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95e7b652-3a97-42c1-86a8-903ec558d539" absoluteBounds="9.765, 9.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c395980f-6844-429c-938f-61edf0f6169a" absoluteBounds="12.75, 0.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURCAD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8632ac5-feb8-4c52-86df-0e361013c4cf" absoluteBounds="12.765, 1.2100000000000009, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38cc72c0-a06b-4c61-972b-b8b044ad1013" absoluteBounds="3.75, 12.75, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURNZD_1D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="639e5f53-da00-4173-931a-456c64091da8" absoluteBounds="3.7649999999999997, 13.21, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45eebc71-9eb3-4eb1-9ed7-78a2f2c1b6a2" absoluteBounds="0.875, 3.125, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURAUD_4H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52a1d770-eb13-4364-8ff2-732cb02e8905" absoluteBounds="0.89000000000000012, 3.585, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="28eece74-65c8-4653-a8f8-2904cc1f9c7f" absoluteBounds="6.5, 3.25, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURAUD_1H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb17e156-6d6f-41e6-b795-f374cb865a20" absoluteBounds="6.515, 3.71, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="676eb579-b349-4c70-a70b-f815a322f0a4" absoluteBounds="15.625, 0.75, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURAUD_1D_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fb806b5b-7954-45a4-9302-202309ec34e7" absoluteBounds="15.64, 1.21, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b330e82-4be0-4b16-a2a4-2e6ce118c4ba" absoluteBounds="18.875, 1.125, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURCAD_1D_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="93c3f8f4-f1d2-45ae-9060-f90b663ea933" absoluteBounds="18.89, 1.585, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4cb6f016-f854-4ecd-ae8b-2e1c08dad448" absoluteBounds="13.125, 4.125, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURNZD_1D_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="458d24b8-2ff6-4ff1-9a54-e2cf0305b28b" absoluteBounds="13.14, 4.585, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="47ad0a34-fa37-4858-8303-0300013147e2" absoluteBounds="19.25, 5.125, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/GBPUSD_1D_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="119ac703-b98d-4cf1-b807-4cb4b1fc1ccf" absoluteBounds="19.265, 5.585, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5634e3e-14b3-432b-a867-f77e56083e5e" absoluteBounds="16, 4.25, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/USDCHF_1D_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d886a35-4534-48d7-adbc-f9302650665f" absoluteBounds="16.015, 4.71, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d71ea4e-10b0-45a7-a2b2-3f6c84bc0352" absoluteBounds="5.875, 0.5, 2, 3.0997033691406251">
+      <DataClassMoniker Name="/DataClasses1DataContext/EURAUD_1H_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc177b97-503d-4b31-a5ca-45e16117c35b" absoluteBounds="5.89, 0.96, 1.9700000000000002, 2.539703369140625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2d82ac44-08a7-4467-ba0b-a3583d796aac" absoluteBounds="3, 3.625, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/AUDUSD_1H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="559dc1a3-6041-4b1e-adce-593bcc3fd627" absoluteBounds="3.0149999999999997, 4.085, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="450bcd0c-bc58-4b02-a829-ca8da2f77e89" absoluteBounds="2.875, 1, 2, 2.3356245930989585">
+      <DataClassMoniker Name="/DataClasses1DataContext/USDCAD_1H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="776bd8df-684a-46e4-a23b-0a5530cde2d8" absoluteBounds="2.8900000000000006, 1.46, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="30035848-b6b4-4268-86b4-d7e016431a33" absoluteBounds="5, 0.5, 2, 5.0099003092447907">
+      <DataClassMoniker Name="/DataClasses1DataContext/result_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8781a80-d931-42d0-9f48-afada8a3a877" absoluteBounds="5.015, 0.96, 1.9700000000000002, 4.4499003092447911" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

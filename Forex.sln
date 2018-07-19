@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forex", "ConsoleApp1\Forex.csproj", "{D0E63F29-D917-4731-BA7B-4E8A3A4F7AC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0E63F29-D917-4731-BA7B-4E8A3A4F7AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E63F29-D917-4731-BA7B-4E8A3A4F7AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E63F29-D917-4731-BA7B-4E8A3A4F7AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E63F29-D917-4731-BA7B-4E8A3A4F7AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CA21E04-1A68-4907-B8B5-49E7683C3431}
+	EndGlobalSection
+EndGlobal
